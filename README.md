@@ -8,12 +8,17 @@ This repo is broken into branches so that students can see a front end starter p
  * [module-1-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-1-setup) - Just getting some things started in the project.
  * [module-2-gulp](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-2-gulpsetup) - Set up Gulp for easy reload of html.
 
-## Current Gulp Tasks
+## npm commands
+- `npm install browser-sync --save-dev` Install browsersync
+- `npm install gulp gulp-clean-css gulp-filter gulp-header gulp-rename gulp-sass gulp-uglify gulp-watch --save-dev`  - Install gulp needs.
+- `npm install bootstrap --save` Install Bootstrap into your Node Modules folder.
+- `npm install jquery --save` Install jQuery into node modules.
+- `npm install font-awesome --save` Install jQuery into node modules.
 
+
+
+## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
 
  * [BrowserSyncDocs](https://www.browsersync.io/docs/gulp) - Check out the Browser Sync docs here. 
  * [Good beginner info on Gulp:](https://css-tricks.com/gulp-for-beginners/) - Gulp is a great tool that takes a little time to learn, but saves a lot of time in the end. 
-
-
-
