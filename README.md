@@ -13,7 +13,7 @@ Note: This repo is broken into branches so that students can see a template get 
 #### Gulp Tasks
 
 - `gulp` builds everything
-- `gulp dev` uses browserSync & opens a project in the browser. Reloads when you save.
+- `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
 - `gulp sass` compiles SCSS files and converts them to CSS.
 - `gulp minify-css` minifies the compiled CSS file
 - `gulp minify-js` minifies the themes JS file
