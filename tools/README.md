@@ -1,6 +1,6 @@
 "# Use this folder for third party tools. This folder is commonly called 'Vendor'" 
 
-##Tools
+## UI Tools
 ### Indispensable Tools
  * [jQuery](https://jquery.com/) - jQuery
  * [Bootstrap](https://getbootstrap.com/) - Bootstrap
