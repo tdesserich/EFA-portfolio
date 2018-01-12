@@ -23,3 +23,8 @@ If you build this from scratch without using the package.json file to load every
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
+
+## Inspiration
+* [PortfolioList](https://github.com/iRaul/awesome-portfolios) - A list of amazing portfolios.
+* [Jake Albaugh](http://jakealbaugh.com/) - Jake Albaugh
+* [Free Code Camp List](https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae) - FreeCodeCamp top 15 list.
