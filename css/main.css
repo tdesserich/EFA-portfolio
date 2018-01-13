@@ -1,11 +1,56 @@
 /* Variables used throughout will go here. */
+/* EFA Color pallete */
+/* Body section. */
+body {
+  padding: 15px; }
+
+header {
+  text-align: center; }
+
 /* CSS code for the Navbar section. */
 #main-nav {
-  padding-top: 10rem;
-  font-size: 18px;
-  padding-bottom: 1rem; }
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: none;
+  background: transparent;
+  /* Hover for the whole nav.*/ }
+  #main-nav:hover {
+    background: transparent; }
+  #main-nav .icon-bar {
+    width: 22px;
+    left: 3px;
+    transition: all 2.2s;
+    position: relative; }
+    #main-nav .icon-bar:nth-child(2) {
+      transform: rotate(45deg);
+      transform-origin: 10% 10%; }
+    #main-nav .icon-bar:nth-child(3) {
+      opacity: 0; }
+    #main-nav .icon-bar:nth-child(4) {
+      transform: rotate(-45deg);
+      transform-origin: 10% 90%; }
+  #main-nav.collapsed .icon-bar {
+    left: 0; }
+    #main-nav.collapsed .icon-bar:nth-child(2) {
+      transform: rotate(50); }
+    #main-nav.collapsed .icon-bar:nth-child(3) {
+      opacity: 1; }
+    #main-nav.collapsed .icon-bar:nth-child(4) {
+      transform: rotate(0); }
 
 /* CSS code for the Header section. */
+.jumbotron {
+  background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") no-repeat center center;
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+.jumbotron-heading {
+  padding-top: 50px;
+  font-weight: 400; }
+
+.jumbotron .container {
+  max-width: 60rem; }
+
 /* CSS code for the Portfolio section. */
 /* CSS code for the About section. */
 /* CSS code for the Contact section. */
