@@ -1,5 +1,12 @@
-/* General CSS stuff goes here. */
+/* Variables used throughout will go here. */
+/* CSS code for the Navbar section. */
+#main-nav {
+  padding-top: 10rem;
+  font-size: 18px;
+  padding-bottom: 1rem; }
 
-body {
-    background-color: #D9514E;
-}
+/* CSS code for the Header section. */
+/* CSS code for the Portfolio section. */
+/* CSS code for the About section. */
+/* CSS code for the Contact section. */
+/* CSS code for the Footer section. */
