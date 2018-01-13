@@ -11,8 +11,11 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-5-gulp-sass-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-5-gulp-sass-setup) - Setting up gulp for reloading SASS when changes happen.
  * [module-6-navbar-style-and-functionality](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-6-navbar-style-and-functionality) - Setting up a little bit of starter style for the navbar.
 
+There is a lot to do, and it's easy to get bogged down in nuances and making things perfect.
+
 ## Current Branch Activity
-1. The sole focus of this branch is to get started on shaping the header section.
+1. Hover effect added to each portfolio item.
+2. Portfolio items are sized properly.
 2. The _header.scss file includes some changes to the jumbotron. 
 3. A body scss file was added to start managing global css and setting some slight padding around the body. We also centered the header section there. 
 
@@ -23,5 +26,6 @@ This repo is a starter repo for helping students get working on building a coder
 
 ## Reading
 Extra reading for getting started with CSS centering.
- * [Centering - CSS Tricks](https://css-tricks.com/centering-css-complete-guide/) - Good read on centering elements.
- * [Bootstrap Example](https://getbootstrap.com/docs/4.0/examples/album/) - The Jumbotron starter was influenced by Bootstrap 4's album example. Be aware that we're using Bootstrap 3.
+ 
+
+ [Bootsnip](https://bootsnipp.com/snippets/7KzGK) - original starter snip for the image hovering.
