@@ -12,10 +12,12 @@ This repo is a starter repo for helping students get working on building a coder
 
 ## Current Branch Activity
 1. The sole focus of this branch is to set up Gulp so that it reloads changes to the .SCSS files.
-2. We will make a few small changes and additions to demonstrate reloading.
+2. At the end of this, we will make a few small changes and additions to demonstrate reloading.
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
+- `gulp sass` compiles scss files as css.
+- `gulp dev` runs both the serve and sass commands. Watches for changes in any of those files.
 
 ## Reading
 Extra reading for setting up Gulp for Sass changes and compilation.
