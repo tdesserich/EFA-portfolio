@@ -12,10 +12,9 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-6-navbar-style-and-functionality](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-6-navbar-style-and-functionality) - Setting up a little bit of starter style for the navbar.
 
 ## Current Branch Activity
-1. The sole focus of this branch is to set start working on a customized navbar.
-2. The _navbar.scss file includes some changes to the navbar hamburger button. When it responds, it changes to an X.
-3. A few sass variables were also added for company color palette.
-4. An id is added to each major section. These will correspond to the href on the navbar allow for navigation throughout.
+1. The sole focus of this branch is to get started on shaping the header section.
+2. The _header.scss file includes some changes to the jumbotron. 
+3. A body scss file was added to start managing global css and setting some slight padding around the body. We also centered the header section there. 
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
@@ -23,5 +22,6 @@ This repo is a starter repo for helping students get working on building a coder
 - `gulp dev` runs both the serve and sass commands. Watches for changes in any of those files.
 
 ## Reading
-Extra reading for getting started with CSS fonts and sizing.
- * [Fonts - CSS Tricks](https://css-tricks.com/almanac/properties/f/font-size/ ) - Great read on em, px, rem, and a bunch of other font items.
+Extra reading for getting started with CSS centering.
+ * [Centering - CSS Tricks](https://css-tricks.com/centering-css-complete-guide/) - Good read on centering elements.
+ * [Bootstrap Example](https://getbootstrap.com/docs/4.0/examples/album/) - The Jumbotron starter was influenced by Bootstrap 4's album example. Be aware that we're using Bootstrap 3.

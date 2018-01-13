@@ -1,5 +1,12 @@
 /* Variables used throughout will go here. */
 /* EFA Color pallete */
+/* Body section. */
+body {
+  padding: 15px; }
+
+header {
+  text-align: center; }
+
 /* CSS code for the Navbar section. */
 #main-nav {
   padding-top: 2rem;
@@ -32,15 +39,17 @@
       transform: rotate(0); }
 
 /* CSS code for the Header section. */
-#main-header {
-  height: 400px; }
+.jumbotron {
+  background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") no-repeat center center;
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
 
-/* Bootstrap overrides */
 .jumbotron-heading {
-  padding-top: 50px; }
+  padding-top: 50px;
+  font-weight: 400; }
 
-#header-action {
-  margin-top: 30px; }
+.jumbotron .container {
+  max-width: 60rem; }
 
 /* CSS code for the Portfolio section. */
 /* CSS code for the About section. */
