@@ -1,8 +1,7 @@
 # Eleven Fifty Starter Portfolio
-This is a starter repo to help students get started on building a Bootstrap template. 
+This repo is a starter repo for helping students get working on building a coder portfolio. 
 
 ## Branches
-This repo is broken into branches so that students can see a front end starter project get built over time. 
  
  * [master](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter) - The most up to date version of the code.
  * [module-1-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-1-setup) - Just getting some things started in the project.
