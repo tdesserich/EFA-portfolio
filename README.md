@@ -1,30 +1,22 @@
 # Eleven Fifty Starter Portfolio
-This is a starter repo to help students get started on building a Bootstrap template. 
+This repo is a starter repo for helping students get working on building a coder portfolio. 
 
 ## Branches
-This repo is broken into branches so that students can see a front end starter project get built over time. 
  
  * [master](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter) - The most up to date version of the code.
  * [module-1-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-1-setup) - Just getting some things started in the project.
  * [module-2-gulp](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-2-gulpsetup) - Set up Gulp for easy reload of html.
  * [module-3-bootstrap-and-jquery](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-3-bootstrap-and-jquery) - Setting up basic jQuery and bootstrap. Testing with a nav bar.
+ * [module-4-htmlstructure](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-4-htmlstructure) - Setting up html structure for overall portfolio.
+ * [module-5-gulp-sass-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-5-gulp-sass-setup) - Setting up gulp for reloading SASS when changes happen.
 
 ## Current Branch Activity
-1. We installed Bootstrap, jQuery, and font-awesome.
-2. Added script tag for bootstrap.css in the head.
-3. Added script tags for jQuery(must be first) & Bootstrap at the bottom of the body. 
-4. Tested to make sure it's bootstrapped. 
-
-## npm commands
-If you build this from scratch without using the package.json file to load everything, you'll need to run these commands.
-- `npm install bootstrap --save` Install Bootstrap into your Node Modules folder.
-- `npm install jquery --save` Install jQuery into node modules.
-- `npm install font-awesome --save` Install jQuery into node modules.
+1. The sole focus of this branch is to set up Gulp so that it reloads changes to the .SCSS files.
+2. We will make a few small changes and additions to demonstrate reloading.
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
 
-## Inspiration
-* [PortfolioList](https://github.com/iRaul/awesome-portfolios) - A list of amazing portfolios.
-* [Jake Albaugh](http://jakealbaugh.com/) - Jake Albaugh
-* [Free Code Camp List](https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae) - FreeCodeCamp top 15 list.
+## Reading
+Extra reading for setting up Gulp for Sass changes and compilation.
+* [Getting Started](http://ryanchristiani.com/getting-started-with-gulp-and-sass/) - A list of directions for setting up SASS changes.
