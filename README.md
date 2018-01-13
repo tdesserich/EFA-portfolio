@@ -10,22 +10,19 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-4-htmlstructure](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-4-htmlstructure) - Setting up html structure for overall portfolio.
  * [module-5-gulp-sass-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-5-gulp-sass-setup) - Setting up gulp for reloading SASS when changes happen.
  * [module-6-navbar-style-and-functionality](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-6-navbar-style-and-functionality) - Setting up a little bit of starter style for the navbar.
-
-There is a lot to do, and it's easy to get bogged down in nuances and making things perfect.
+ * [module-7-header-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-7-header-style-starter) - Setting up a little bit of starter style for the header.
+ * [module-8-portfolio-hover-and-sizing](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-8-portfolio-hover-and-sizing) - Setting up a little bit of starter style for hovering in the porfolio section. Also sized the section properly.
 
 ## Current Branch Activity
 1. Hover effect added to each portfolio item.
 2. Portfolio items are sized properly.
-2. The _header.scss file includes some changes to the jumbotron. 
-3. A body scss file was added to start managing global css and setting some slight padding around the body. We also centered the header section there. 
+3. Added section title info to the body for global usage. 
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
 - `gulp sass` compiles scss files as css.
 - `gulp dev` runs both the serve and sass commands. Watches for changes in any of those files.
 
-## Reading
-Extra reading for getting started with CSS centering.
+## Source
  
-
- [Bootsnip](https://bootsnipp.com/snippets/7KzGK) - original starter snip for the image hovering.
+ [Bootsnip](https://bootsnipp.com/snippets/7KzGK) - original starter snip for the image hovering. Used some of this and altered.
