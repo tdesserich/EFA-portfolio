@@ -22,22 +22,25 @@
 </head>
 
 <body>
+
+    
     <!-- Navigation -->
     <!--Note that the text-uppercase will set the name in caps -->
-    <nav class="navbar navbar-default text-uppercase" id="main-nav" role="navigation">
+    <nav class="navbar navbar-default" id="main-nav" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
+                <button type="button" class="navbar-toggle bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">EFA Starter Template</a>
+                <a class="navbar-brand text-uppercase navbar-left" id="developer-name" href="#">EFA Starter Template</a>
             </div>
+        
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right nav-choices">
                     <li class="active">
                         <a href="#">Home</a>
                     </li>
@@ -56,12 +59,12 @@
     </nav>
 
     <!-- Header -->
-    <header class="jumbotron text-center">
+    <header class="jumbotron text-center" id="main-header">
         <div class="container">
             <h1 class="jumbotron-heading">Coder Portfolio</h1>
             <p class="lead text-muted">Some text about how amazing and awesome we are.</p>
             <p>
-                <a href="#" class="btn btn-primary">Press here for something.</a>
+                <a href="#" class="btn btn-primary" id="header-action">Press here for something.</a>
             </p>
         </div>
     </header>

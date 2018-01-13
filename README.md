@@ -9,10 +9,12 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-3-bootstrap-and-jquery](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-3-bootstrap-and-jquery) - Setting up basic jQuery and bootstrap. Testing with a nav bar.
  * [module-4-htmlstructure](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-4-htmlstructure) - Setting up html structure for overall portfolio.
  * [module-5-gulp-sass-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-5-gulp-sass-setup) - Setting up gulp for reloading SASS when changes happen.
+ * [module-6-navbar-style-and-functionality](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-6-navbar-style-and-functionality) - Setting up a little bit of starter style for the navbar.
 
 ## Current Branch Activity
-1. The sole focus of this branch is to set up Gulp so that it reloads changes to the .SCSS files.
-2. At the end of this, we will make a few small changes and additions to demonstrate reloading.
+1. The sole focus of this branch is to set start working on a customized navbar.
+2. The _navbar.scss file includes some changes to the navbar hamburger button. When it responds, it changes to an X.
+3. A few sass variables were also added for company color palette.
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
@@ -20,5 +22,5 @@ This repo is a starter repo for helping students get working on building a coder
 - `gulp dev` runs both the serve and sass commands. Watches for changes in any of those files.
 
 ## Reading
-Extra reading for setting up Gulp for Sass changes and compilation.
-* [Getting Started](http://ryanchristiani.com/getting-started-with-gulp-and-sass/) - A list of directions for setting up SASS changes.
+Extra reading for getting started with CSS fonts and sizing.
+ * [Fonts - CSS Tricks](https://css-tricks.com/almanac/properties/f/font-size/ ) - Great read on em, px, rem, and a bunch of other font items.
