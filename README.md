@@ -15,6 +15,7 @@ This repo is a starter repo for helping students get working on building a coder
 1. The sole focus of this branch is to set start working on a customized navbar.
 2. The _navbar.scss file includes some changes to the navbar hamburger button. When it responds, it changes to an X.
 3. A few sass variables were also added for company color palette.
+4. An id is added to each major section. These will correspond to the href on the navbar allow for navigation throughout.
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
