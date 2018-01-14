@@ -63,8 +63,8 @@ header {
   max-width: 60rem; }
 
 /* CSS code for the Portfolio section. */
-/*Credit to Bootsnip for starter code: https://bootsnipp.com/snippets/7KzGK */
-/* Portfolio Section
+/* ------------------------------
+Portfolio Section
 --------------------------------*/
 #portfolio {
   background: #fff;
@@ -91,19 +91,16 @@ header {
   text-align: center; }
 
 #portfolio .portfolio-item .details h4 {
-  font-size: 16px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
+  font-size: 25px;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
   font-weight: 700;
-  color: #333333; }
+  color: #000; }
 
 #portfolio .portfolio-item .details span {
   display: block;
-  color: #666666;
-  font-size: 13px;
+  color: #53565A;
+  font-size: 18px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -111,7 +108,7 @@ header {
   transform: translate3d(0, 15px, 0); }
 
 #portfolio .portfolio-item:hover .details {
-  opacity: 0.8; }
+  opacity: 0.6; }
 
 #portfolio .portfolio-item:hover .details h4 {
   -webkit-transform: translate3d(0, 0, 0);
