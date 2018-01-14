@@ -13,12 +13,11 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-7-header-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-7-header-style-starter) - Setting up a little bit of starter style for the header.
  * [module-8-portfolio-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-8-portfolio-style-starter) - Setting up a little bit of starter style for hovering in the porfolio section. Also sized the section properly.
  * [module-9-about-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-9-about-style-starter) - Setting up a little bit of starter style for hovering in the porfolio section. Also sized the section properly.
+ * [module-10-contact-formspree-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-10-contact-formspree-setup) - Set up a contact form with Formspree, a third party server.
   
 
 ## Current Branch Activity
-1. Stylistic choices here. Needed to decide a starter point and color for the background.
-2. Set up a left side animation for the about text.
-3. Added a background to the section as a whole.
+1. Created a contact form that uses Formspree. Guests will be able to enter an email and message. 
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
@@ -27,7 +26,4 @@ This repo is a starter repo for helping students get working on building a coder
 - `gulp dev` runs both the serve and sass commands. Watches for changes in any of those files.
 
 ## Sources
-Just using these on this branch for now.
- * [Animate.css](https://daneden.github.io/animate.css/) - Animate.css for amazing animations.
- * [AnimateCoden](https://codepen.io/syedrafeeq/pen/yEJKn) - Animate codepen.
- * [Wow.js](https://wowjs.uk/docs.html) - Fantastic library for cool scrolling effects. Used this in the portfolio section and in the Header sub heading.
+* [Formspree](https://formspree.io/) - Simple tool to use for basic front end projects. Handles a light amount of posts. You have this there as a formality.
