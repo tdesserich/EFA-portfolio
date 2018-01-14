@@ -16,6 +16,7 @@ gulp.task('serve', function () {
         }
     });
     gulp.watch("*.html").on("change", reload);
+
 });
 
 // gulp.task('sass', function () {
@@ -35,9 +36,48 @@ gulp.task('sass', function() {
       }))
   });
 
+  // Minify custom JS
+gulp.task('minify-js', function() {
+    return gulp.src('js/main.js')
+      .pipe(uglify())
+      .pipe(rename({
+        suffix: '.min'
+      }))
+      .pipe(gulp.dest('js'))
+      .pipe(browserSync.reload({
+        stream: true
+      }))
+  });
+
+// Minify custom JS
+gulp.task('minify-js', function() {
+    return gulp.src('js/main.js')
+      .pipe(uglify())
+      .pipe(rename({
+        suffix: '.min'
+      }))
+      .pipe(gulp.dest('js'))
+      .pipe(reload({
+        stream: true
+      }))
+  });
 
 // Runs sass & serve methods. Watches for changes and reloads. 
-gulp.task('dev', ['serve', 'sass'], function () {
+// gulp.task('dev', ['serve', 'sass', 'minify-js'], function () {
+//     gulp.watch('scss/*.scss', ['sass']);
+//     gulp.watch('*.html');
+//     gulp.watch('js/*.js', ['minify-js']);
+//      // Reloads the browser whenever HTML or JS files change
+//     gulp.watch('*.html', reload);
+//     gulp.watch('js/**/*.js', reload);
+// });
+
+
+// Dev task with browserSync
+gulp.task('dev', ['serve', 'sass', 'minify-js'], function() {
     gulp.watch('scss/*.scss', ['sass']);
-    gulp.watch('*.html');
-});
+    gulp.watch('js/*.js', ['minify-js']);
+    // Reloads the browser whenever HTML or JS files change
+    gulp.watch('*.html', reload);
+    gulp.watch('js/**/*.js', reload);
+  });

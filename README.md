@@ -26,3 +26,4 @@ This repo is a starter repo for helping students get working on building a coder
 ## Source
  
  [Bootsnip](https://bootsnipp.com/snippets/7KzGK) - original starter snip for the image hovering. Used some of this and altered.
+ [Bootstrap Container Class](https://www.sitepoint.com/understanding-bootstrap-grid-system/) - Excellent read on Bootstrap containers. 
