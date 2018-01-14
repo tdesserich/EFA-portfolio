@@ -14,10 +14,13 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-8-portfolio-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-8-portfolio-style-starter) - Setting up a little bit of starter style for hovering in the porfolio section. Also sized the section properly.
  * [module-9-about-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-9-about-style-starter) - Setting up a little bit of starter style for hovering in the porfolio section. Also sized the section properly.
  * [module-10-contact-formspree-setup](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-10-contact-formspree-setup) - Set up a contact form with Formspree, a third party server.
-  
+ * [module-11-contact-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-11-contact-style-starter) - Set up contact information with font awesome for social media links.
 
 ## Current Branch Activity
-1. Created a contact form that uses Formspree. Guests will be able to enter an email and message. 
+1. Installed font awesome. `npm install font-awesome --save` 
+2. Used font-awesome to add social media contact links.
+3. Set up contact section into three different regions. Info, Contact form, Follow Me.
+
 
 ## Current Gulp Tasks
 - `gulp serve` uses browserSync & opens a project in the browser. Reloads when you save.
@@ -26,4 +29,4 @@ This repo is a starter repo for helping students get working on building a coder
 - `gulp dev` runs both the serve and sass commands. Watches for changes in any of those files.
 
 ## Sources
-* [Formspree](https://formspree.io/) - Simple tool to use for basic front end projects. Handles a light amount of posts. You have this there as a formality.
+* [Bootstrapmade](https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/?download_theme=flexor.zip) - Used several Bootstrapmade templates as starter resources for ideas and direction for this section.

@@ -12,10 +12,13 @@
 
     <!-- Bootstrap core CSS Modules-->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link href="node_modules/animate.css/animate.min.css">
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
     <link href="" rel="stylesheet" type="text/css">
+
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
@@ -65,7 +68,7 @@
   ============================-->
     <header class="jumbotron text-center" id="main-header">
         <div class="container">
-            <h1 class="jumbotron-heading">JSON SASS</h1>
+            <h1 class="jumbotron-heading">Paul O'Connor</h1>
             <div class="section-description wow fadeInUp" data-wow-duration="5s">
                 <p class="lead text-muted">Some text. A tag line. A lorem ipsum for now. More text that shows some sort of call to action.</p>
 
@@ -191,45 +194,96 @@
         </div>
     </section>
 
+
     <!--==========================
   Contact Section
   ============================-->
-
-    <section id="contact">
-        <div class="container">
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+    <section id="contact" class="block block-bg-grey-dark">
+        <div class="container wow fadeInUp">
             <div class="row">
-                <form action="https://formspree.io/poconnor@elevenfifty.org" method="POST">
-                    <div class="control-group">
-                        <div class="form-group">
-                            <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
-                                name="name">
-                            <p class="help-block text-danger"></p>
+                <!--Info -->
+                <div class="col-md-3">
+                    <address>
+                        <strong>Paul O'Connor</strong>
+                        <br>
+                        <i class="fa fa-map-pin"></i> Westfield, IN 46074
+                        <br>
+                        <i class="fa fa-phone"></i> 970-631-6367
+                        <br>
+                        <i class="fa fa-envelope-o"></i> jamespauloconnor@gmail.com
+                        <br>
+                    </address>
+                </div>
+                <!--Contact Form -->
+                <div class="col-md-6">
+                    <form action="https://formspree.io/poconnor@elevenfifty.org" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                                    name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                                    name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                                    name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <!--Social Media Links -->
+                <div class="col-md-3">
+                    <div class="container">
+                        <div class="col-md-6-offset col-md-6">
+                            <div class="social-links">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="facebook">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="github">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                    </li>
 
+                                    <li>
+                                        <a href="#" class="google-plus">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="linkedin">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="control-group">
-                        <div class="form-group">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
-                                name="_replyto">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
-                                name="message"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-lg btn-black">
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
     </section>
@@ -237,11 +291,12 @@
     <!--==========================
   Footer Section
   ============================-->
+
     <footer class="bg-primary">
         <p class="float-right">
             <a href="#">Back to top</a>
         </p>
-        <p>&copy; 2018 Developer Company, Inc. &middot;
+        <p>&copy; 2018 Paul O'Connor, weekend project built for helping students &middot;
             <a href="#">Privacy</a> &middot;
             <a href="#">Terms</a>
         </p>

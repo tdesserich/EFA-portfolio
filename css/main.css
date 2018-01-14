@@ -131,4 +131,27 @@ About Section
   animation-delay: 0.1s; }
 
 /* CSS code for the Contact section. */
+#contact {
+  margin: 50px; }
+
+#contact .social-links ul {
+  list-style: none; }
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #53565A;
+  color: #fff;
+  line-height: 1;
+  padding: 12px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s; }
+
+#contact .social-links a:hover {
+  background: #8acfba;
+  color: #fff; }
+
 /* CSS code for the Footer section. */
