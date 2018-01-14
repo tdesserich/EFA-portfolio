@@ -12,6 +12,7 @@ This repo is a starter repo for helping students get working on building a coder
  * [module-6-navbar-style-and-functionality](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-6-navbar-style-and-functionality) - Setting up a little bit of starter style for the navbar.
  * [module-7-header-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-7-header-style-starter) - Setting up a little bit of starter style for the header.
  * [module-8-portfolio-style-starter](https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/tree/module-8-portfolio-style-starter) - Setting up a little bit of starter style for hovering in the porfolio section. Also sized the section properly.
+ 
 
 ## Current Branch Activity
 1. Hover effect added to each portfolio items.
@@ -33,4 +34,5 @@ This repo is a starter repo for helping students get working on building a coder
  * [Wow.js](https://wowjs.uk/docs.html) - Fantastic library for cool scrolling effects. Used this in the portfolio section and in the Header sub heading.
  * [BootstrapMade.com](https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/) - Fantastic library for cool templates. The portfolio transitions are taken from this app.
  * [Bootstrap Container Class](https://www.sitepoint.com/understanding-bootstrap-grid-system/) - Excellent read on Bootstrap containers. Need to have a container to use rows. 
+ * [React and Transitions](https://medium.com/@joethedave/achieving-ui-animations-with-react-the-right-way-562fa8a91935) - A look ahead to some things with React. Good talk about transitions.
 
