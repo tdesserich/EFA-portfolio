@@ -191,76 +191,79 @@
         </div>
     </section>
 
- <!--==========================
+    <!--==========================
   Contact Section
   ============================-->
-        <section id="contact">
-            <div class="container">
-                <h2 class="text-center text-uppercase">Contact Me</h2>
-                <div class="row">
-                    <form>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
 
-        <!--==========================
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+                <form action="https://formspree.io/jamespauloconnor@gmail.com" method="POST">
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                                name="name">
+                            <p class="help-block text-danger"></p>
+
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                                name="_replyto">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                                name="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-lg btn-black">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
   Footer Section
   ============================-->
-        <footer class="bg-primary">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>&copy; 2018 Developer Company, Inc. &middot;
-                <a href="#">Privacy</a> &middot;
-                <a href="#">Terms</a>
-            </p>
-        </footer>
+    <footer class="bg-primary">
+        <p class="float-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>&copy; 2018 Developer Company, Inc. &middot;
+            <a href="#">Privacy</a> &middot;
+            <a href="#">Terms</a>
+        </p>
+    </footer>
 
-        <!--==========================
+    <!--==========================
   Modals Section
   ============================-->
 
-        <!--==========================
+    <!--==========================
   Scripts Section
   ============================-->
 
-        <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-        <!-- jQuery 3rd Party Scripts-->
-        <script src="node_modules/wowjs/dist/wow.min.js"></script>
+    <!-- jQuery 3rd Party Scripts-->
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
 
-        <!-- Custom scripts for this template -->
-        <script src="js/main.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/main.min.js"></script>
 
 </body>
 
