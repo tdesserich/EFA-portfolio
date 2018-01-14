@@ -18,13 +18,14 @@ header {
   position: relative;
   text-transform: uppercase; }
 
-/* CSS code for the Navbar section. */
+/* ------------------------------
+Navbar Section
+--------------------------------*/
 #main-nav {
   padding-top: 2rem;
   padding-bottom: 1rem;
   border-bottom: none;
-  background: transparent;
-  /* Hover for the whole nav.*/ }
+  background: transparent; }
   #main-nav:hover {
     background: transparent; }
   #main-nav .icon-bar {
@@ -62,7 +63,6 @@ header {
 .jumbotron .container {
   max-width: 60rem; }
 
-/* CSS code for the Portfolio section. */
 /* ------------------------------
 Portfolio Section
 --------------------------------*/
