@@ -3,7 +3,7 @@
 /* Body section. */
 body {
   padding: 15px;
-  background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") repeat center center; }
+  background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") no-repeat center center; }
 
 header {
   text-align: center; }
@@ -118,6 +118,40 @@ Portfolio Section
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* CSS code for the About section. */
+/****************************
+About Section
+****************************/
+#about {
+  background: url("../assets/logo/blue-green-bg.jpg") no-repeat center center; }
+
+.about-panel {
+  visibility: visible;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
 /* CSS code for the Contact section. */
+#contact {
+  margin: 50px; }
+
+#contact .social-links ul {
+  list-style: none; }
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #53565A;
+  color: #fff;
+  line-height: 1;
+  padding: 12px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s; }
+
+#contact .social-links a:hover {
+  background: #8acfba;
+  color: #fff; }
+
 /* CSS code for the Footer section. */
