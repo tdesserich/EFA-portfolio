@@ -1,1 +1,14 @@
 /* CSS code for the Footer section. */
+
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $gray;
+    font-size: 18px;
+    color: white;
+}
+  
+footer p {
+    margin-bottom: .25rem;
+}
