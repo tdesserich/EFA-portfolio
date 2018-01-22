@@ -25,8 +25,7 @@ Navbar Section
   padding-top: 2rem;
   padding-bottom: 1rem;
   border-bottom: none;
-  background: transparent;
-  background-color: #9AD0D5; }
+  background: transparent; }
   #main-nav:hover {
     background: transparent; }
   #main-nav .icon-bar {
@@ -118,6 +117,16 @@ Portfolio Section
 #portfolio .portfolio-item:hover .details span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
+
+.image-link {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+/* aligns caption to center */
+.mfp-title {
+  text-align: center;
+  padding: 2px 2px; }
 
 /****************************
 About Section
