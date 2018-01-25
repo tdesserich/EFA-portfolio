@@ -51,3 +51,55 @@ gulp.task('dev', ['serve', 'sass', 'minify-js'], function() {
     gulp.watch('*.html', reload);
     gulp.watch('js/**/*.js', reload);
   });
+
+  // This copies our third party libraries from /node_modules into /tools folder
+gulp.task('tools', function() {
+
+  // Bootstrap
+  gulp.src([
+      './node_modules/bootstrap/dist/**/*'
+    ])
+    .pipe(gulp.dest('./tools/bootstrap'))
+
+  // Font Awesome
+  gulp.src([
+      './node_modules/font-awesome/**/*',
+      '!./node_modules/font-awesome/{less,less/*}',
+      '!./node_modules/font-awesome/{scss,scss/*}',
+      '!./node_modules/font-awesome/.*',
+      '!./node_modules/font-awesome/*.{txt,json,md}'
+    ])
+    .pipe(gulp.dest('./tools/font-awesome'))
+
+  // jQuery
+  gulp.src([
+      './node_modules/jquery/dist/*',
+      '!./node_modules/jquery/dist/core.js'
+    ])
+    .pipe(gulp.dest('./tools/jquery'))
+
+  // jQuery Easing
+  gulp.src([
+      './node_modules/jquery.easing/*.js'
+    ])
+    .pipe(gulp.dest('./tools/jquery-easing'))
+
+  // Animate
+  gulp.src([
+    './node_modules/animate.css/animate.min.css'
+  ])
+  .pipe(gulp.dest('./tools/animate.css'))
+
+  // Wowjs
+  gulp.src([
+    './node_modules/wowjs/dist/*'
+  ])
+  .pipe(gulp.dest('./tools/wowjs'))
+
+  // Magnific Popup
+  gulp.src([
+    './node_modules/magnific-popup/dist/*'
+  ])
+  .pipe(gulp.dest('./tools/magnific-popup'))
+
+});
