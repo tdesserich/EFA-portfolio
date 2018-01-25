@@ -8,7 +8,6 @@ jQuery(document).ready(function ($) {
     // Initialize wowjs 
     new WOW().init();
 
-
     /*-------------------
     MAGNIFICO STARTER - 
     Code from a starter example by the creator. 

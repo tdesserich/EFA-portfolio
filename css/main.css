@@ -1,6 +1,8 @@
 /* Variables used throughout will go here. */
 /* EFA Color pallete */
-/* Body section. */
+/****************************
+Body Section
+****************************/
 body {
   padding: 15px;
   background: url("http://eleven50.wpengine.com/wp-content/uploads/2017/03/Learning-to-Code5.png?id=21797") no-repeat center center; }
@@ -126,7 +128,7 @@ Portfolio Section
 /* aligns caption to center */
 .mfp-title {
   text-align: center;
-  padding: 2px 2px; }
+  padding: 5px 5px; }
 
 /****************************
 About Section
@@ -169,9 +171,9 @@ About Section
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #53565A;
+  background-color: #D9514E;
   font-size: 18px;
-  color: white; }
+  color: #8acfba; }
 
 footer p {
   margin-bottom: .25rem; }
