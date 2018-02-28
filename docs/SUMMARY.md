@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+<!-- * [Introduction](README.md) -->
 * [Introduction: ](00-Intro/0.0.md)
     * [Introduction Part 2: ](00-Intro/0.1.md)
 * [Portfolio Structure: ](01-Portfolio Structure/1.0.md)
