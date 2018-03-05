@@ -1,6 +1,6 @@
 # Summary
-
-<!-- * [Introduction](README.md) -->
+---
+* [Introduction](README.md) 
 * [0-Project Overview](00-Overview/0.0.md)
 * [1-Sample Project](01-Sample Project/1.0.md)
 * [2-Portfolio Structure](02-Portfolio Structure/2.0.md)
@@ -16,4 +16,3 @@
 * [12-Contact Style](12-Contact Style/12.0.md)
 * [13-Footer Style](13-Footer Style/13.0.md)
 * [14-Modals Setup](14-Modals Setup/14.0.md)
-* [15-Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
