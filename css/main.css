@@ -4,19 +4,74 @@
 Body Section
 ****************************/
 body {
-  background-color: lightcoral; }
+  background-color: whitesmoke;
+  color: black; }
+
+.marginTop {
+  margin-top: 25px; }
+
+.marginLeft {
+  margin-top: 25px; }
+
+.bunny {
+  height: 20em;
+  border-color: gray;
+  border-radius: 5em;
+  align-content: center;
+  margin: auto;
+  display: block;
+  border-radius: 5em; }
+
+.aboutMe {
+  color: black;
+  text-align: left; }
+
+.headshot {
+  height: 20em;
+  border-color: gray;
+  border-radius: 5em;
+  align-content: center;
+  margin: auto;
+  display: block; }
 
 /* ------------------------------
 Navbar Section
 --------------------------------*/
+.navbar-container {
+  padding: 20px 0 20px 0;
+  font-size: 16px;
+  font-weight: bolder; }
+
+.navbar-container a {
+  color: black; }
+
+.navbar.navbar-fixed-top.fixed-theme {
+  background-color: grey;
+  border-color: gray;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  color: white; }
+
+.navbar.navbar-fixed-top.fixed-theme a {
+  color: white; }
+
+.navbar-brand.fixed-theme {
+  font-size: 30px; }
+
+.navbar-container.fixed-theme {
+  padding: 0; }
+
+.navbar-container {
+  transition: 0.8s;
+  -webkit-transition: 0.8s; }
+
 /****************************
 Header Section
 ****************************/
 .jumbotron-billboard .img {
   margin-bottom: 0px;
-  opacity: 0.8;
   color: #fff;
   background: #000 url("../assets/cherry-blossoms.jpeg") top center no-repeat;
+  opacity: 0.7;
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -32,7 +87,6 @@ Header Section
   font-weight: bold; }
 
 .jumbotron h2 {
-  margin-top: 50;
   font-size: 50px;
   font-weight: bold; }
 

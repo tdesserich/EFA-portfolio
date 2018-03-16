@@ -4,5 +4,38 @@ Body Section
 ****************************/
 
 body  {
-    background-color: lightcoral;
+    background-color:whitesmoke;
+    color: black;
+}
+
+.marginTop {
+    margin-top: 25px;
+}
+
+.marginLeft {
+    margin-top: 25px;
+}
+
+.bunny {
+    height: 20em;
+    border-color: gray;
+    border-radius: 5em;
+    align-content: center;
+    margin: auto;    
+    display: block;
+    border-radius: 5em;
+}
+
+.aboutMe{
+    color: black;
+    text-align: left;
+}
+
+.headshot {
+    height: 20em;
+    border-color: gray;
+    border-radius: 5em;
+    align-content: center;
+    margin: auto;    
+    display: block;
 }
