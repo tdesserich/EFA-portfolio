@@ -71,8 +71,7 @@ var myNavBar = {
  */
 myNavBar.init(  [
     "header",
-    "header-container",
-    "brand"
+    "header-container"
 ]);
 
 /**

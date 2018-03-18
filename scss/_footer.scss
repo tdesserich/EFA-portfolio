@@ -1,2 +1,23 @@
 /* CSS code for the Footer section. */
 
+.footer {
+    padding: 30px;
+    vertical-align: middle;
+    background-color: gray;
+    color: black;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+    text-align: center;    
+ }
+
+ .fa {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}

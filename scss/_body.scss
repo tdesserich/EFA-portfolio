@@ -4,16 +4,37 @@ Body Section
 ****************************/
 
 body  {
-    background-color:whitesmoke;
+    background-color:lightgrey;
     color: black;
 }
 
+p {
+    font-size: 18px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: normal;
+}
+
 .marginTop {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .marginLeft {
-    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.marginRight {
+    margin-right: 16px;
+}
+
+.marginBottomt {
+    margin-bottom: 20px;
+}
+
+.aboutMeText p{
+    font-size: 20px;
 }
 
 .bunny {
@@ -26,16 +47,19 @@ body  {
     border-radius: 5em;
 }
 
-.aboutMe{
-    color: black;
-    text-align: left;
+#contactMe {
+
 }
 
-.headshot {
-    height: 20em;
-    border-color: gray;
-    border-radius: 5em;
-    align-content: center;
-    margin: auto;    
-    display: block;
+#projects{
+
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

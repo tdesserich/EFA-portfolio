@@ -4,14 +4,30 @@
 Body Section
 ****************************/
 body {
-  background-color: whitesmoke;
+  background-color: lightgrey;
   color: black; }
 
+p {
+  font-size: 18px; }
+
+label {
+  font-size: 16px;
+  font-weight: normal; }
+
 .marginTop {
-  margin-top: 25px; }
+  margin-top: 20px; }
 
 .marginLeft {
-  margin-top: 25px; }
+  margin-left: 40px; }
+
+.marginRight {
+  margin-right: 16px; }
+
+.marginBottomt {
+  margin-bottom: 20px; }
+
+.aboutMeText p {
+  font-size: 20px; }
 
 .bunny {
   height: 20em;
@@ -22,47 +38,49 @@ body {
   display: block;
   border-radius: 5em; }
 
-.aboutMe {
-  color: black;
-  text-align: left; }
-
-.headshot {
-  height: 20em;
-  border-color: gray;
-  border-radius: 5em;
-  align-content: center;
-  margin: auto;
-  display: block; }
+.quote {
+  text-align: center;
+  font-style: italic;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 /* ------------------------------
 Navbar Section
 --------------------------------*/
 .navbar-container {
-  padding: 20px 0 20px 0;
   font-size: 16px;
   font-weight: bolder; }
+
+.navbar-container {
+  transition: 0.8s;
+  -webkit-transition: 0.8s; }
 
 .navbar-container a {
   color: black; }
 
+.navbar-toggle {
+  border-color: grey; }
+
+.navbar-toggle .icon-bar {
+  background-color: black; }
+
+/* fixed-theme */
 .navbar.navbar-fixed-top.fixed-theme {
   background-color: grey;
-  border-color: gray;
+  border-color: grey;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
   color: white; }
 
 .navbar.navbar-fixed-top.fixed-theme a {
   color: white; }
 
-.navbar-brand.fixed-theme {
-  font-size: 30px; }
+.fixed-theme .navbar-toggle {
+  border-color: #ddd; }
 
-.navbar-container.fixed-theme {
-  padding: 0; }
-
-.navbar-container {
-  transition: 0.8s;
-  -webkit-transition: 0.8s; }
+.fixed-theme .navbar-toggle .icon-bar {
+  background-color: white; }
 
 /****************************
 Header Section
@@ -82,17 +100,20 @@ Header Section
   z-index: 1; }
 
 .jumbotron h1 {
-  margin-top: 180px;
-  font-size: 60px;
-  font-weight: bold; }
+  margin-top: 200px;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Belleza", Arial, Helvetica, sans-serif;
+  color: black; }
 
 .jumbotron h2 {
-  font-size: 50px;
-  font-weight: bold; }
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Belleza", Arial, Helvetica, sans-serif; }
 
 .jumbotron {
   position: relative;
-  min-height: 700px;
+  min-height: 800px;
   padding-top: 50px;
   padding-bottom: 50px; }
 
@@ -111,5 +132,40 @@ Portfolio Section
 /****************************
 About Section
 ****************************/
+#aboutMe {
+  color: black;
+  text-align: left;
+  font-size: 30px; }
+
+.headshot {
+  height: 24em;
+  border-color: gray;
+  border-radius: 3em;
+  align-content: center;
+  margin: auto;
+  display: block; }
+
 /* CSS code for the Contact section. */
+.btn btn-secondary {
+  color: black;
+  background-color: grey; }
+
 /* CSS code for the Footer section. */
+.footer {
+  padding: 30px;
+  vertical-align: middle;
+  background-color: gray;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  text-align: center; }
+
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none; }
+
+.fa:hover {
+  opacity: 0.7; }

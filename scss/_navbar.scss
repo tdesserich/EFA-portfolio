@@ -2,36 +2,45 @@
 Navbar Section
 --------------------------------*/
 .navbar-container {
-    padding: 20px 0 20px 0;
+    // padding: 20px 0 20px 0;
     font-size: 16px;
     font-weight: bolder;
+}
+
+.navbar-container {
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
 }
 
 .navbar-container a {
     color: black;
 }
 
+.navbar-toggle {
+    border-color: grey;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+/* fixed-theme */
+
 .navbar.navbar-fixed-top.fixed-theme {
     background-color: grey;
-    border-color: gray;
+    border-color: grey;
     box-shadow: 0 0 5px rgba(0,0,0,.8);
     color: white;
 }
 
 .navbar.navbar-fixed-top.fixed-theme a {
     color: white;
-}    
-    
-.navbar-brand.fixed-theme {
-    font-size: 30px;
 }
 
-.navbar-container.fixed-theme {
-    padding: 0;
+.fixed-theme .navbar-toggle {
+    border-color: #ddd;
 }
 
-
-.navbar-container{
-    transition: 0.8s;
-    -webkit-transition:  0.8s;
+.fixed-theme .navbar-toggle .icon-bar {
+    background-color: white;
 }
