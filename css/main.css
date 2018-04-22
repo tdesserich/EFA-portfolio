@@ -90,6 +90,7 @@ Header Section
   margin-bottom: 0px;
   color: #fff;
   background: #000 url("../assets/cherry-blossoms.jpeg") top center no-repeat;
+  border-bottom: 1px solid white;
   opacity: 0.7;
   height: 100%;
   width: 100%;
