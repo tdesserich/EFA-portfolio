@@ -6,7 +6,8 @@ Header Section
     margin-bottom: 0px;
     color: #fff;
     background: #000 url("../assets/cherry-blossoms.jpeg") top center no-repeat;
-    border-bottom: 1px solid white;
+    // border-bottom: 1px solid white;
+    box-shadow: 2px 10px 10px #f0f0f0;
     opacity: 0.7;
     height: 100%;
     width: 100%;
@@ -43,11 +44,4 @@ Header Section
 .jumbotron .container {
   position:relative;
   z-index:2;
-}
-
-@media screen and (max-width: 768px) {
-  .jumbotron {
-    padding-top:20px;
-    padding-bottom:20px;
-  }
 }
