@@ -22,7 +22,7 @@ label {
 }
 
 .marginLeft {
-    margin-left: 40px;
+    margin-left: 5px;
 }
 
 .marginRight {
@@ -48,14 +48,18 @@ label {
 .quote {
     text-align: center;
     font-style: italic;
-    // margin-left: 150px;
-    // margin-right: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-// @media(min-width: 350px) {
-//     .quote {
-//         margin: 50px 50px;
-//     }
-// }
+@media(max-width: 375px) {
+    .marginLeft{margin-left: 0px}
+  }
+  
+  @media(max-width: 414px) {
+    .marginLeft{margin-left: 0px}
+  }
+  
+  @media(max-width: 768px) {
+    .marginLeft{margin-left: 0px}
+  }

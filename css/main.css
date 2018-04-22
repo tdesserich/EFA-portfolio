@@ -18,7 +18,7 @@ label {
   margin-top: 20px; }
 
 .marginLeft {
-  margin-left: 40px; }
+  margin-left: 5px; }
 
 .marginRight {
   margin-right: 16px; }
@@ -34,6 +34,18 @@ label {
   font-style: italic;
   margin-top: 50px;
   margin-bottom: 50px; }
+
+@media (max-width: 375px) {
+  .marginLeft {
+    margin-left: 0px; } }
+
+@media (max-width: 414px) {
+  .marginLeft {
+    margin-left: 0px; } }
+
+@media (max-width: 768px) {
+  .marginLeft {
+    margin-left: 0px; } }
 
 /* ------------------------------
 Navbar Section
