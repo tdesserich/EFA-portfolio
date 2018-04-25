@@ -1,13 +1,10 @@
 /* ------------------------------
 Navbar Section
 --------------------------------*/
-.navbar-container {
-    // padding: 20px 0 20px 0;
-    font-size: 16px;
-    font-weight: bolder;
-}
 
 .navbar-container {
+    font-size: 16px;
+    font-weight: bolder;
     transition: 0.8s;
     -webkit-transition:  0.8s;
 }
@@ -16,31 +13,14 @@ Navbar Section
     color: black;
 }
 
-.navbar-toggle {
-    border-color: grey;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: black;
-}
-
 /* fixed-theme */
 
 .navbar.navbar-fixed-top.fixed-theme {
     background-color: grey;
-    border-color: grey;
-    box-shadow: 0 0 5px rgba(0,0,0,.8);
-    color: white;
+    box-shadow: 0 0 5px white;
 }
 
 .navbar.navbar-fixed-top.fixed-theme a {
     color: white;
 }
 
-.fixed-theme .navbar-toggle {
-    border-color: #ddd;
-}
-
-.fixed-theme .navbar-toggle .icon-bar {
-    background-color: white;
-}

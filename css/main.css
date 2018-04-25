@@ -14,6 +14,13 @@ label {
   font-size: 16px;
   font-weight: normal; }
 
+.cardStyle {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 8px #f0f0f0;
+  width: 100%; }
+
 .marginTop {
   margin-top: 20px; }
 
@@ -52,36 +59,20 @@ Navbar Section
 --------------------------------*/
 .navbar-container {
   font-size: 16px;
-  font-weight: bolder; }
-
-.navbar-container {
+  font-weight: bolder;
   transition: 0.8s;
   -webkit-transition: 0.8s; }
 
 .navbar-container a {
   color: black; }
 
-.navbar-toggle {
-  border-color: grey; }
-
-.navbar-toggle .icon-bar {
-  background-color: black; }
-
 /* fixed-theme */
 .navbar.navbar-fixed-top.fixed-theme {
   background-color: grey;
-  border-color: grey;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-  color: white; }
+  box-shadow: 0 0 5px white; }
 
 .navbar.navbar-fixed-top.fixed-theme a {
   color: white; }
-
-.fixed-theme .navbar-toggle {
-  border-color: #ddd; }
-
-.fixed-theme .navbar-toggle .icon-bar {
-  background-color: white; }
 
 /****************************
 Header Section
@@ -153,7 +144,7 @@ About Section
   vertical-align: middle;
   background-color: gray;
   color: black;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px white;
   text-align: center; }
 
 .fa {
