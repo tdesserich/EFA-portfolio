@@ -17,21 +17,16 @@ label {
     font-weight: normal;
 }
 
-// .card {
-//     padding: 100px;
-// }
-
-// .card-deck .card {
-//     margin-top: 100px;
-// }
-
-.cardStyle {
+.card {
     padding: 10px;
-    // margin-top: 2em;
     border: 1px solid grey;
     border-radius: 0.4em;
     box-shadow: 2px 4px 8px #f0f0f0;
-    width: 100%;
+    // width: 100%;
+}
+.cardStyle {
+    margin-top: 1em;
+    margin-bottom: 3em !important;
   }
 
 .marginTop {

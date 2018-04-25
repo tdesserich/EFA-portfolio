@@ -14,12 +14,15 @@ label {
   font-size: 16px;
   font-weight: normal; }
 
-.cardStyle {
+.card {
   padding: 10px;
   border: 1px solid grey;
   border-radius: 0.4em;
-  box-shadow: 2px 4px 8px #f0f0f0;
-  width: 100%; }
+  box-shadow: 2px 4px 8px #f0f0f0; }
+
+.cardStyle {
+  margin-top: 1em;
+  margin-bottom: 3em !important; }
 
 .marginTop {
   margin-top: 20px; }
@@ -68,7 +71,7 @@ Navbar Section
 
 /* fixed-theme */
 .navbar.navbar-fixed-top.fixed-theme {
-  background-color: grey;
+  background-color: #A7A7A7;
   box-shadow: 0 0 5px white; }
 
 .navbar.navbar-fixed-top.fixed-theme a {
@@ -82,7 +85,7 @@ Header Section
   color: #fff;
   background: #000 url("../assets/cherry-blossoms.jpeg") top center no-repeat;
   box-shadow: 2px 10px 10px #f0f0f0;
-  opacity: 0.7;
+  opacity: 0.6;
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -142,7 +145,7 @@ About Section
 .footer {
   padding: 30px;
   vertical-align: middle;
-  background-color: gray;
+  background-color: #A7A7A7;
   color: black;
   box-shadow: 0 0 5px white;
   text-align: center; }
