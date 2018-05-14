@@ -1,21 +1,21 @@
 {
-  "name": "efa-portfoliostarter",
+  "name": "Tracy Desserich Portfolio",
   "version": "1.0.0",
-  "description": "A repo for getting started on developer portfolio.",
+  "description": "Tracy Desserich Portfolio",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter.git"
+    "url": "https://tdesserich.github.io/TD-Portfolio/"
   },
-  "author": "Paul O'Connor",
-  "license": "ISC",
+  "author": "Tracy Desserich",
+  "license": "tdesserich",
   "bugs": {
-    "url": "https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter/issues"
+    "url": "https://tdesserich.github.io/TD-Portfolio/"
   },
-  "homepage": "https://github.com/ElevenfiftyAcademy/JavaScript-151-PortfolioStarter#readme",
+  "homepage": "https://tdesserich.github.io/TD-Portfolio/",
   "devDependencies": {
     "browser-sync": "^2.23.7",
     "gulp": "^3.9.1",
